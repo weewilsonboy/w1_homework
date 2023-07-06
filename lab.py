@@ -88,4 +88,30 @@ print("------------------------------")
 print("By converting 10 to the short month name, I'm expecting it to be 'Oct', and the result is")
 print(number_to_short_month_name(10))
 
-#test
+
+def cube(length_of_side):
+    volume = length_of_side **3
+    return volume
+
+
+print("------------------------------")
+print("By calculating the volume of a cube with the side of 3, I'm expecting it to be 27, and the result is")
+print(cube(3))
+
+def string_reverse(str):
+    rts = str[::-1]
+    return rts
+
+print("------------------------------")
+print("By reversing the string 'Scotland', I'm expecting it to be 'dnaltocS', and the result is")
+print(string_reverse("Scotland"))
+
+def far_to_cel(far):
+    cel = (far-32)*(5/9)
+    return round(cel, 2)
+
+print("------------------------------")
+print("By converting 0 fahrenheit to celcius, I'm expecting it to be -17.78, and the result is")
+print(far_to_cel(0))
+
+#added comment to test git
